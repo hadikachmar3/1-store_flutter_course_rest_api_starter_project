@@ -1,6 +1,18 @@
 # Starter source code
 # Flutter 3.0 & Rest API from scratch, build a mini Store app
 
+
+## if you are getting this error:
+> Could not run phased build action using connection to Gradle distribution 'https://services.gradle.org/distributions/gradle-7.4.2-bin.zip'.
+org.gradle.api.GradleScriptException: A problem occurred evaluating settings 'android'.
+A problem occurred evaluating settings 'android'.
+assert localPropertiesFile.exists()
+       |                   |
+       |                   false
+       C:\GIT\Learning\Flutter\1-store_flutter_course_rest_api_starter_project\android\local.properties
+>     
+> **Deleting the android folder and doing flutter create, rebuilds it with no issues.**
+
 [![Youtube](https://img.shields.io/static/v1?label=Coding%20with%20Hadi&message=Subscribe&logo=YouTube&color=FF0000&style=for-the-badge)][youtube] 
 [![Udemy](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white)][udemy]
 [![GitHub followers](https://img.shields.io/github/followers/hadikachmar3?logo=GitHub&style=for-the-badge)][github]
