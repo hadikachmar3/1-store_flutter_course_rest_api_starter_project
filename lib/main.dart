@@ -15,11 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter 3.0.4 ',
+      title: 'Shopping ',
       theme: ThemeData(
         scaffoldBackgroundColor: lightScaffoldColor,
         primaryColor: lightCardColor,
-        backgroundColor: lightBackgroundColor,
         appBarTheme: AppBarTheme(
           iconTheme: IconThemeData(
             color: lightIconsColor,
@@ -47,11 +46,10 @@ class MyApp extends StatelessWidget {
         //       displayColor: Colors.black,
         //     ),
         cardColor: lightCardColor,
-        brightness: Brightness.light,
-        colorScheme: ThemeData().colorScheme.copyWith(
+        brightness: Brightness.light, colorScheme: ThemeData().colorScheme.copyWith(
               secondary: lightIconsColor,
               brightness: Brightness.light,
-            ),
+            ).copyWith(background: lightBackgroundColor),
       ),
       home: const HomeScreen(),
     );
